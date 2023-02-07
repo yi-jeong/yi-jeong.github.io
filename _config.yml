@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/jeongBlog"
+baseurl: ""
 url: "https://yi-jeong.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
