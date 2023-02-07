@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container">
+{% assign category = page.category | default: page.title %}
+{% for post in site.categories[category] %}
+<article {% if post.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ post.feature-img }}')">
+    {% include tags_list.html tags=post.tags tag_count=post.tags.size %}
+    <h3 class="title"><a class="link" href="{{ post.url | relative_url }}">{{ post.feature-title | default: post.title }}</a></h3>
+    {% if post.subtitle %}<h4 class="subtitle">{{ post.subtitle }}</h4>{% endif %}
+    <p class="meta">
+      {{ post.date | date: "%B %-d, %Y" }}
+      {% if post.author %} - {{ post.author }}{% endif %}
+    </p>
+  </header>
+  <section class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</section>
+</article>
+{% endfor %}
+</div>

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    {% if page.tags %}
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    {% endif %}
+    <h3 class="title">{{ page.feature-title | default: page.title }}</h3>
+    {% if page.subtitle %}<h4 class="subtitle">{{ page.subtitle }}</h4>{% endif %}
+  </header>
+  <section class="post-excerpt">{{ content }}</section>
+</article>

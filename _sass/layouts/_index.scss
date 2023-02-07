@@ -1,0 +1,58 @@
+// Header text feature
+
+.container{
+  margin: 0 auto;
+  width: calc( 100% - 30px );
+  @media (min-width: 991px) {
+    width:800px;
+  }
+}
+
+.call-out {
+  display: inline-block;
+  width: 100%;
+  background-color:$header-desc-background-color;
+  background-size: cover;
+  font-size: 1.2em;
+  text-align: center;
+  color: $header-desc-text-color;
+}
+.call-out p:last-child {
+  margin-bottom: 0;
+}
+.call-out a {
+  color: $header-desc-link-color
+}
+// Post listing
+.posts {
+  h3{ margin-bottom: .5rem; margin-top: 1rem; }
+
+  .post-tag{ 
+    color: #FFF;
+    background: #333;
+    font-size: 1rem;
+    padding: .2rem .3rem;
+  }
+  .post-teaser {  
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-size: $feature-image-size;
+    p a {
+      @extend .body-link;
+    }
+  }
+  .excerpt {
+    margin-top: 1em;
+  }
+}
+// Pagination
+.pagination .button {
+  margin: 0 1.5em;
+  i {
+    vertical-align: middle;
+  }
+}
+.pagination {
+  text-align: center;
+}

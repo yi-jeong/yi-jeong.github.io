@@ -1,0 +1,127 @@
+.site-header {
+  padding: 2rem 0;
+  background: $brand-color;
+  display: inline-block;
+  width: 100%;
+
+  a {
+    color: $header-link-color;
+  }
+
+  .avatar {
+    height: 2em;
+    width: 2em;
+    float: left;
+    margin-top: -3px;
+    border-radius: 0.2em;
+    margin-right: 1em;
+  }
+
+  .site-title {
+    float: left;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .site-nav {
+    display: flex;
+    justify-content: end;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 1.5;
+      display: flex;
+      justify-content: end;
+      text-align: right;
+    }
+    li {
+      display: inline;
+      margin-right: 1em;
+      vertical-align: middle;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+    @media (max-width: 1100px) {
+      justify-content:end;
+    }
+  }
+
+  .toggle-wrap{
+    margin-left: 2rem;
+
+    input{
+      position:absolute;
+      width:1px;
+      height: 1px;
+      top: -999px;
+    }
+    .toggle-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      background: $text-color;
+      color: $text-color-b;
+    }
+  }
+
+    /* --- Search form --- */
+    form {
+        border: 0;
+        border-bottom: 2px solid $search-color;
+        outline: 0;
+
+        *:focus {
+            outline: none;
+        }
+
+        input{
+            &[type=text] {
+                box-sizing: border-box;
+                border: 0;
+                outline: 0;
+                color: $search-color;
+            }
+
+            &::-moz-placeholder {
+                color: $search-color;
+                opacity: 1;
+            }
+
+            &:-ms-input-placeholder, &::-webkit-input-placeholder {
+                color: $search-color;
+            }
+        }
+
+        button {
+           border: none;
+           font-size: 0.9em;
+           background-color: $brand-color;
+           color: $search-color;
+        }
+    }
+}
+
+
+[data-theme= 'dark']{
+  .site-header {
+    background: $brand-color-b;
+
+    a {
+      color: $header-link-color-b;
+    }
+
+    .toggle-wrap{
+      .toggle-btn{
+        background: $text-color-b;
+        color: $text-color;
+      }
+    }
+  }
+}

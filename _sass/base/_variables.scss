@@ -1,0 +1,44 @@
+// Typography
+$font-family-main: 'GmarketSans', Helvetica, Arial, sans-serif !default;
+$font-family-headings: 'GmarketSans', Helvetica, Arial, sans-serif !default;
+$font-size: 1.10em !default;
+
+// Padding
+$padding-large: 20% !default;
+$padding-small: 5% !default;
+$padding-x-small: 3% !default;
+
+// Brand colours
+$brand-color: #fff !default;
+$brand-color-b: #333 !default;
+$background-color: #fff !default;
+$background-color-b: #333 !default;
+$border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
+$border-color-b:rgba(255, 255, 255, 0.8) !default;
+
+// Typography colours
+$text-color: #383838 !default;
+$text-color-b: #fff !default;
+$link-color: #3351a7 !default;
+$link-color-b: #3351a7 !default;
+$selection-color: #D4D4D4 !default; // visible when highlighting text
+$code-back-color: #f5f5f5 !default;
+
+// Tags color
+$tags-color: #b0b0b0 !default;
+
+//Search color
+$search-color: #999 !default;
+
+// Header colours
+$header-link-color: #383838 !default;
+$header-link-color-b: #fff !default;
+
+// Feature image for articles
+$feature-image-text-color: #fff !default;
+$feature-image-size: cover !default; // options include "cover", "contain", "auto"
+
+// Header description box
+$header-desc-background-color: #3351a7 !default;
+$header-desc-text-color: #FFF !default;
+$header-desc-link-color: #02453D !default;
