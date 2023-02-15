@@ -29,6 +29,13 @@ article {
     font-size: 0.9em;
   }
   .post-excerpt{ color: $search-color; }
+  .box-title{ 
+    display: inline-block;
+    padding: 0 .5rem;
+    background: $background-color-b;
+    color: $text-color-b;
+    font-weight: 500;
+  }
 }
 header {
   h1 {
