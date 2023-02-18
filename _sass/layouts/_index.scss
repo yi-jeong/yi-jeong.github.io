@@ -23,8 +23,26 @@
 .call-out a {
   color: $header-desc-link-color
 }
+// project button
+.projects{
+  margin-bottom: 2rem;
+
+  a{
+    padding: 1rem;
+    display: block;
+    background: $background-color-b;
+    color: #FFF;
+    border-radius: 1rem;
+  }
+}
 // Post listing
 .posts {
+  h2{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    border-bottom: 0;
+  }
   h3{ margin-bottom: .5rem; margin-top: 1rem; }
 
   .post-tag{ 
