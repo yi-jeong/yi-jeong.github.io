@@ -9,7 +9,7 @@ tags: [React.js, JS]
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/img/chat.gif"></p>
 <p style="color: #ccc; text-align: center">외로운 1인 채팅 . . . 🥲</p>  
 
-**[깃허브 코드보기](https://yi-jeong.github.io/js/bottomsheet.html)**  
+**[깃허브 코드보기](https://github.com/yi-jeong/chatApp)**  
 위 링크에서 코드 확인 가능합니다 😀  
 
 - - - 

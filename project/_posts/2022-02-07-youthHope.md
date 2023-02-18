@@ -3,13 +3,11 @@ layout: post
 title: 서민금융진흥원 청년희망적금
 categories: [Project]
 tags: [Publishing, Design]
+feature-img: "assets/img/project/thum/hope-thum.png"
 hidden: true
 ---
 
-<p style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/img/project/youthHope.png">
-</p> 
----
+
 <p class="box-title"># 기여도</p>
 
 🎨 **디자인** 100%  
@@ -39,4 +37,8 @@ hidden: true
 
 📌 **디자인 시안 작업**   
 
-📌 **모바일 전용 퍼블리싱 작업**  
+📌 **디바이스 호환 가능한 퍼블리싱 작업**  
+
+<p>
+<img class="ylong-img" src="{{ site.baseurl }}/assets/img/project/youthHope.png">
+</p>

@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<div class="container">
-  <article {% if page.feature-img %}class="feature-image"{% endif %}>
-    <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+<div class="container post-box">
+  <article>
+    <header>
+      {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
       <h3 class="title">{{ page.feature-title | default: page.title }}</h3>
       {% if page.subtitle %}<h4 class="subtitle">{{ page.subtitle }}</h4>{% endif %}
       <p class="meta">
@@ -12,7 +13,6 @@ layout: default
       </p>
     </header>
     <section class="post-content">{{ content }}</section>
-    {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
   </article>
 </div>
 

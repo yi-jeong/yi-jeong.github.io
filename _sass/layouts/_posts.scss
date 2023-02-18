@@ -6,11 +6,46 @@ article,
   float: left;
   width: 100%;
 }
+
+.project-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  article{ 
+    width: 100%;
+
+    @media (min-width: 991px) {
+      width: calc( 50% - .5rem );
+    }
+
+    .image-wrap{ 
+      overflow: hidden; 
+      position: relative;
+      padding-top: 25%;
+      padding-bottom: 25%;
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 0 .5rem .2rem rgba(0, 0, 0, .05);
+
+      img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  
+}
+
 article {
 
   margin: 1rem 0;
 
-  img{ 
+  .ylong-img{ 
+    width: 100%;
     max-width:400px;
   }
 

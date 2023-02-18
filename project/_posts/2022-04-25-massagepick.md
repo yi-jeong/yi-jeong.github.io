@@ -3,6 +3,7 @@ layout: post
 title: 토이프로젝트 모바일앱
 categories: [Project]
 tags: [React.js, TypeScript, JS, Design]
+feature-img: "assets/img/project/thum/mag-thum.png"
 hidden: true
 ---
 
@@ -49,14 +50,14 @@ hidden: true
 📌 **모바일 앱 전용 퍼블리싱 작업**  
 
 <p style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/img/project/massagePick.png">
+<img class="ylong-img" src="{{ site.baseurl }}/assets/img/project/massagePick.png">
 </p>
 
 
 📌 **마사지샵 리스트 api 데이터 랜더링**
 
 <p style="text-align: left;">
-<img src="{{ site.baseurl }}/assets/img/project/massage-list.gif">
+<img class="ylong-img" src="{{ site.baseurl }}/assets/img/project/massage-list.gif">
 </p>
 
 ```js
@@ -78,13 +79,13 @@ json 파일을 만들어 리스트 화면 랜더링을 해주었다 🙂
 📌 **퓨터 영역 사업자정보 더보기 기능 구현**
 
 <p style="text-align: left;">
-<img src="{{ site.baseurl }}/assets/img/project/massage-footer.gif">
+<img class="ylong-img" src="{{ site.baseurl }}/assets/img/project/massage-footer.gif">
 </p>
 
 📌 **router-dom을 이용해 디테일 페이지 제작**
 
 <p style="text-align: left;">
-<img src="{{ site.baseurl }}/assets/img/project/massage-detail.gif">
+<img class="ylong-img" src="{{ site.baseurl }}/assets/img/project/massage-detail.gif">
 </p>
 
 
