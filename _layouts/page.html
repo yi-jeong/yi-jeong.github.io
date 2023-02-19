@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+
+<div class="container">
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     {% if page.tags %}
@@ -13,3 +16,4 @@ layout: default
   </header>
   <section class="post-excerpt">{{ content }}</section>
 </article>
+</div>

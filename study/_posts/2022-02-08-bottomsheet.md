@@ -2,7 +2,7 @@
 layout: post
 title: bottom sheet
 categories: [Study]
-tags: [JS, TEST]
+tags: [JS]
 ---
 
 
