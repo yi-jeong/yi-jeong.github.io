@@ -7,6 +7,14 @@ article,
   width: 100%;
 }
 
+.post-list{
+  article{
+    margin: .5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+}
+
 .project-list{
   display: flex;
   flex-wrap: wrap;

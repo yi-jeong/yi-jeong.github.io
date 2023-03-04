@@ -22,7 +22,10 @@ layout: default
 
   <div class="posts">
     <div class="container">
-      <h2 class="tit"># STUDY</h2>
+      <h2 class="tit">
+        <span># STUDY</span>
+        <a href="{{ site.baseurl }}/category/study.html">+ 더보기</button>
+      </h2>
       {% for post in paginator.posts %}
       <div class="post-teaser">
         <header>
@@ -54,7 +57,7 @@ layout: default
     </div>
   </div>
 
-  {% if paginator.total_pages > 1 %}
+  <!-- {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" class="button" >
@@ -69,5 +72,5 @@ layout: default
     </a>
     {% endif %}
   </div>
-  {% endif %}
+  {% endif %} -->
 </div>
