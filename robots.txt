@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yi-jeong.github.io/sitemap.xml

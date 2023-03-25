@@ -10,6 +10,7 @@ theme_settings:
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
+  google_site_verification: nHgAs7X6ST7RTnDCovJ_rg333gKMJhGc_HRLV2_5mm8
 
   # Header and footer text
   header_text: >
@@ -63,6 +64,7 @@ theme_settings:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  
 
   # Post navigation
   post_navigation: true
