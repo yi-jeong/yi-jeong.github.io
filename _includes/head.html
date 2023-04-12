@@ -1,13 +1,13 @@
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
+	<title>{% if page.title %}{{ page.title }} {% else %} {{ site.theme_settings.title }}{% endif %}</title>
 	<meta name="description"
 		content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google_site_verification" content="{{ site.theme_settings.google_site_verification }}">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 	<!--Favicon-->
 	<link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
@@ -17,7 +17,7 @@
 
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="{{ site.theme_settings.title }}"
-		href="{{ "/feed.xml" | relative_url }}" />
+		href="{{ '/feed.xml' | relative_url }}" />
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
