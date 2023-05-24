@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 싱크(Sync)와 어싱크(Async), 블록(Block)와 논블록(Non-block)을 공부해요
+title: 싱크(Sync)와 어싱크(Async), 블록(Block)와 논블록(Non-block)
 categories: [Study]
 tags: [etc]
 ---
