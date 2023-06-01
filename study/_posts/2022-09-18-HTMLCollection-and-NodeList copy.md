@@ -3,6 +3,7 @@ layout: post
 title: HTMLCollection 와 NodeList 에 대하여
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 excerpt_separator: <!--more-->
 ---
 

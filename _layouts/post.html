@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
-<div class="container post-box">
-  <article>
-    <header>
-      {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
-      <h3 class="title">{{ page.feature-title | default: page.title }}</h3>
-      {% if page.subtitle %}<h4 class="subtitle">{{ page.subtitle }}</h4>{% endif %}
-      <p class="meta">
-        {{ page.date | date: "%B %-d, %Y" }}
-        {% if page.author %} - {{ page.author }}{% endif %}
-      </p>
-    </header>
-    <section class="post-content">{{ content }}</section>
-  </article>
+<div class="post">
+  <div class="container post-box">
+    <article>
+      <header>
+        {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
+        <h3 class="title">{{ page.feature-title | default: page.title }}</h3>
+        {% if page.subtitle %}<h4 class="subtitle">{{ page.subtitle }}</h4>{% endif %}
+        <p class="meta">
+          {{ page.date | date: "%B %-d, %Y" }}
+          {% if page.author %} - {{ page.author }}{% endif %}
+        </p>
+      </header>
+      <section class="post-content">{{ content }}</section>
+    </article>
+  </div>
 </div>
 
 <!-- Disqus -->

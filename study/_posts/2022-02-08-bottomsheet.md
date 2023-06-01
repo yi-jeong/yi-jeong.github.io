@@ -3,6 +3,7 @@ layout: post
 title: bottom sheet
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title: 자바스크립트의 실행순서를 공부해요 (+쓰레드)
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 ---
 
 스크립트를 작성하다보면 원하는 시점에 기능이 동작하지 않는 경우가 있습니다.  

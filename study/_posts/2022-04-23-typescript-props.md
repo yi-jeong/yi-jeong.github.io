@@ -2,7 +2,7 @@
 layout: post
 title: typescript를 사용한 React props 넘기기 😕
 categories: [Study]
-tags: [typescript, React.js]
+tags: [typescript, React]
 ---
 
 

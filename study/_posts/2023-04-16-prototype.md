@@ -3,6 +3,7 @@ layout: post
 title: 자바스크립트의 prototype 이해하기
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 ---
 
 자바스크립트의 객체를 보고 의문이 들었습니다.  
@@ -20,7 +21,7 @@ JavaScript의 prototype 을 이해해봅시다.
 객체의 속성을 참조하려고 할 때, 해당 객체에 그 속성이 없다면, 자바스크립트는 객체의 `prototype`을 따라가면서 해당 속성을 찾습니다. 이는 프로토타입 체인이 끝날 때까지 계속됩니다. 이렇게 프로토타입 체인을 통해 속성을 찾는 방식을 프로토타입 상속이라고 합니다.
 
 프로토타입과 상속을 활용한 예시 코드를 봅시다 🙂
-
+ 
 ```js
 function Family(name, part) {
     this.name = name;

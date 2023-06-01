@@ -2,7 +2,7 @@
 layout: post
 title: useContext 와 useReducer ‼️ 로 글로벌 상태 관리하기 ✌️
 categories: [Study]
-tags: [React.js, JS]
+tags: [React, JS]
 ---
 
 

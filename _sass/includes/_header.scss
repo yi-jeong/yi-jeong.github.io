@@ -1,11 +1,13 @@
 .site-header {
   padding: 2rem 0;
-  background: $brand-color;
   display: inline-block;
   width: 100%;
 
   a {
     color: $header-link-color;
+    font-weight: 700;
+    font-family: 'GmarketSans';
+    font-size: 1.8rem;
   }
   .header-box{
     display: flex;
@@ -121,7 +123,6 @@
 
 [data-theme= 'dark']{
   .site-header {
-    background: $brand-color-b;
 
     a {
       color: $header-link-color-b;

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 싱크(Sync)와 어싱크(Async), 블록(Block)와 논블록(Non-block)
+title: 싱크(Sync)와 어싱크(Async), 블록(Block)과 논블록(Non-block)
 categories: [Study]
 tags: [etc]
+feature-img: "assets/img/thum/etc.png"
 ---
 
 

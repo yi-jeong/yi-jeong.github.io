@@ -3,6 +3,7 @@ layout: post
 title: 숫자야구 ⚾️ 만들기 ✌️
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 excerpt_separator: <!--more-->
 ---
 

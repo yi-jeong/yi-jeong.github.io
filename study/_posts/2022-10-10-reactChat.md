@@ -2,7 +2,7 @@
 layout: post
 title: socket.io 로 채팅창📝 구현하기
 categories: [Study]
-tags: [React.js, JS]
+tags: [React, JS]
 ---
 
 

@@ -2,7 +2,8 @@
 layout: post
 title: Next.js로 작업한 프로젝트 최적화하기
 categories: [Study]
-tags: [Next.js]
+tags: [Next]
+feature-img: "assets/img/thum/next.png"
 ---
 
 ### 🧐 **웹 사이트 최적화, 왜 중요한가?**

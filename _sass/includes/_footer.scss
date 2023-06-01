@@ -1,15 +1,28 @@
+.footer{
+    margin-top: 4rem;
+    padding: 3rem 0;
+    background: #fafafa;
+    text-align: center;
+    font-size: .9rem;
+    color: #aaa;
+
+    .me{
+        color: $brand-color;
+        font-weight: 700;
+    }
+}
+
 .site-footer {
-  @extend %padding-regular;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  color: lighten($text-color, 30%);
-  font-size: 0.9em;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: lighten($text-color, 30%);
+    font-size: 0.9em;
 }
 
 
 [data-theme= 'dark']{
-  .site-footer {
-    color: lighten($text-color-b, 30%);
-  }
+    .site-footer {
+        color: lighten($text-color-b, 30%);
+    }
 }

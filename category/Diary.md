@@ -1,0 +1,4 @@
+---
+layout: diary
+title: Diary
+---

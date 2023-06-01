@@ -2,7 +2,7 @@
 layout: post
 title: 타입 구성🔧과 타입 정의🗡 에 대하여
 categories: [Study]
-tags: [typescript, React.js]
+tags: [typescript, React]
 ---
 
 ### 📌 타입스크립트를 사용하는 이유

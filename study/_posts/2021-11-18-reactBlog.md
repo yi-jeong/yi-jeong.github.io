@@ -2,7 +2,7 @@
 layout: post
 title: React로 블로그 구현하기
 categories: [Study]
-tags: [React.js, JS]
+tags: [React, JS]
 ---
 
 

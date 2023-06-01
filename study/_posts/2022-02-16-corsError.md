@@ -2,7 +2,7 @@
 layout: post
 title: CORS 오류🤢 해결하기😖
 categories: [Study]
-tags: [React.js, JS]
+tags: [React, JS]
 ---
 
 네이버 api를 이용해 검색기능을 구현하던 중 오류가 발생했다.

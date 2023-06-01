@@ -3,6 +3,7 @@ layout: post
 title: map 과 reduce 를 공부해요 👻
 categories: [Study]
 tags: [JS]
+feature-img: "assets/img/thum/js.png"
 ---
 
 ### 자바스크립트 map 과 reduce는 어떤 상황에 쓰일까?  

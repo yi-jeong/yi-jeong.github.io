@@ -2,7 +2,8 @@
 layout: post
 title: 배열 랜더링하기
 categories: [Study]
-tags: [React.js, JS]
+tags: [React, JS]
+feature-img: "assets/img/thum/js.png"
 ---
 
 

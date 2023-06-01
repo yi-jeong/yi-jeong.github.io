@@ -3,11 +3,13 @@
 @import 'external/syntax';
 
 // Base
+@import 'base/font';
 @import 'base/variables';
 @import 'base/global';
 @import 'base/utility';
 
 // Posts
+@import 'layouts/home';
 @import 'layouts/posts';
 @import 'layouts/index';
 @import 'layouts/tags';

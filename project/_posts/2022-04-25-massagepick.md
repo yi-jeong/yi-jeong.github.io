@@ -2,7 +2,7 @@
 layout: post
 title: 토이프로젝트 모바일앱
 categories: [Project]
-tags: [React.js, TypeScript, JS, Design]
+tags: [React, TypeScript, JS, Design]
 feature-img: "assets/img/project/thum/mag-thum.png"
 hidden: true
 ---
