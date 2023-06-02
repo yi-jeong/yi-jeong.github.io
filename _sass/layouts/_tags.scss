@@ -50,3 +50,16 @@
         }
     }
 }
+
+[data-theme= 'dark']{
+
+    .tagList{
+        background: $background-color-b;
+
+        .box{
+            a{
+                background: #fff;
+            }
+        }
+    }
+}
